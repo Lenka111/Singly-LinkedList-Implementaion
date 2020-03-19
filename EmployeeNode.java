@@ -1,4 +1,5 @@
-//Node class. Make it specific to the type we're using it with. will only work with employee instances
+//Elena Voinu
+//Node class. Specific to the type we're using it with. Will only work with employee instances(not generic)
 public class EmployeeNode {
     //field for employee
     private  Employee employee;
@@ -19,6 +20,7 @@ public class EmployeeNode {
         this.employee = employee;
     }
 
+    //getters and setters
     public Employee getEmployee() {
         return employee;
     }
