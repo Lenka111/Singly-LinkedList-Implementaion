@@ -31,6 +31,7 @@ public class Employee {
         return Objects.hash(getFirstName(), getSecondName(), getId());
     }
 
+    //getters and setters
     public String getFirstName() {
         return firstName;
     }
