@@ -56,6 +56,7 @@ public class Employee {
         this.id = id;
     }
 
+    //constructor
     public Employee(String firstName, String secondName, int id) {
         this.firstName = firstName;
         this.secondName = secondName;
