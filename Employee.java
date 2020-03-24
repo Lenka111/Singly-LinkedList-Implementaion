@@ -6,6 +6,7 @@ public class Employee {
     private String secondName;
     private int id;
 
+   //The toString() method returns the string representation of the object
     @Override
     public String toString() {
         return "" +
