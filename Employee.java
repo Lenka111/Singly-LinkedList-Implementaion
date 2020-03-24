@@ -15,6 +15,7 @@ public class Employee {
                 id ;
     }
 
+    // needed for the contains method
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
