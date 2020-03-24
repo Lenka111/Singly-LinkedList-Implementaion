@@ -1,3 +1,4 @@
+//Elena Voinu
 // only works with Employee nodes
 public class EmployeeLinkedList {
     private EmployeeNode head;
@@ -54,6 +55,7 @@ public class EmployeeLinkedList {
         System.out.print("NULL\n");
     }
 
+    //check if list is empty
     public boolean isEmpty(){
         return head == null;
     }
